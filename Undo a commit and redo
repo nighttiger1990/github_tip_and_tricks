@@ -10,3 +10,5 @@ This leaves your working tree (the state of your files on disk) unchanged but un
 Make corrections to working tree files.
 git add anything that you want to include in your new commit.
 Commit the changes, reusing the old commit message. reset copied the old head to .git/ORIG_HEAD; commit with -c ORIG_HEAD will open an editor, which initially contains the log message from the old commit and allows you to edit it. If you do not need to edit the message, you could use the -C option.
+------
+source: https://stackoverflow.com/questions/927358/how-to-undo-the-last-commits-in-git
